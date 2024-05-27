@@ -1,8 +1,6 @@
-﻿using SharedServices;
-using SharedServices.V1;
-using Utility.Events;
+﻿using SharedServices.V1;
 
-namespace Services.Event
+namespace SharedServices.Event.V1
 {
     public interface IEventService : IService
     {

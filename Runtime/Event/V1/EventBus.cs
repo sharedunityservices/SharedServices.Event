@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace Utility.Events
+namespace SharedServices.Event.V1
 {
     public static class EventBus
     {

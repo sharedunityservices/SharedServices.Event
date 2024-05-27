@@ -1,6 +1,4 @@
-using Utility.Events;
-
-namespace Services.Event
+namespace SharedServices.Event.V1
 {
     public class EventService : IEventService
     {

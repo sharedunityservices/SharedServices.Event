@@ -1,7 +1,7 @@
 ﻿using System;
 using UnityEngine.Events;
 
-namespace Utility.Events
+namespace SharedServices.Event.V1
 {
     public class EventForwarder<T> where T : IEvent
     {

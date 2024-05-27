@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Utility.Events
+namespace SharedServices.Event.V1
 {
     public class EventListener<T> where T : IEvent
     {
