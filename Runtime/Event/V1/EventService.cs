@@ -1,8 +1,6 @@
-using UnityEngine.Scripting;
-
 namespace SharedServices.Event.V1
 {
-    [Preserve]
+    [UnityEngine.Scripting.Preserve]
     public class EventService : IEventService
     {
         public void AddListener<T>(EventListener<T> listener) where T : IEvent => 
