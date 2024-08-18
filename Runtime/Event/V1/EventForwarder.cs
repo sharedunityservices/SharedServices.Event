@@ -3,6 +3,7 @@ using UnityEngine.Events;
 
 namespace SharedServices.Event.V1
 {
+    [UnityEngine.Scripting.Preserve]
     public class EventForwarder<T> where T : IEvent
     {
         private UnityEvent _triggerEvent;
